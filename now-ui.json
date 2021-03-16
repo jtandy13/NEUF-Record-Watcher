@@ -1,0 +1,27 @@
+{
+	"components": {
+	    "snc-wds-rw": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Record Watcher",
+				"icon": "document-outline",
+				"description": "Record Watcher component",
+				"category": "primitives"
+			},
+			"properties": [
+				{
+					"name": "table",
+					"label": "Table name",
+					"required": true
+				},
+				{
+					"name": "filter",
+					"label": "Filter query string",
+					"required": true
+				}
+			]
+	    }
+	},
+	"scopeName": "x_snc_wds_rw"
+}
